@@ -1,0 +1,134 @@
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 30px;
+}
+
+#logo{
+    color: white;
+    font-weight: 900;
+    background-color: #50a3a2;
+    display: inline-block;
+    padding: 10px;
+    margin-left: 50px;
+    align-items: center;
+}
+#fullstackheading{
+        color: white;
+}
+
+#Header{
+    background-color: #333333;
+}
+#content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 40px;
+}
+#section1{
+    background-color: whitesmoke;
+    border-radius: 12px;
+    flex: 1;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 10px ;
+    
+}
+#section2{
+    
+    margin: 4px;
+    background-color:steelblue;
+    border-radius: 10px;
+     flex: 3;
+}
+#photo{
+    margin-top: 30px;
+    height: 200px;
+    width: 150px;
+}
+#section2content{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.mycourse{
+    background-color: lightgray;
+    margin: 30px;
+    padding: 12px;
+    width: 120px;
+    color: black;
+    font-weight: bold;
+    box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.6);
+}   
+.mycourse:hover{
+    background-color: lavender;
+    cursor: pointer;
+    box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.9);
+
+}
+
+.mycourses{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    justify-items: center;
+}
+#lastcontent{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 30px;
+    padding-left: 120px;
+    padding-bottom: 25px;
+
+}
+#videocontent{
+    flex: 1;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: white;
+}
+#codecontent{
+    border: 1px solid black;
+    width: 300px;
+    background-color: white;
+    flex: 1;
+    border-radius: 10px;
+    margin-right: 120px;
+    padding: 20px;
+    
+}
+#videodiv{
+
+
+    border: 3px solid white;
+    border-radius: 6px;
+    width: 300px;
+}
+#lastbuttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.buttons{
+    margin: 12px;
+    margin-bottom: 50px;
+    width: 200px;
+    padding: 10px;
+    box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.6);
+    font-weight: bold;
+}
+.buttons:hover{
+
+    cursor: pointer;
+    background-color:whitesmoke;
+    transition: all 0.4s;
+    box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.9);
+    color: red;
+
+
+}
